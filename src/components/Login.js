@@ -59,7 +59,7 @@ export default function Login() {
 
 <div className="text">
 
-  <h1 className="white-heading-hostel"> Hostel</h1> <h1 className="blue-heading">Management </h1> <h1 className="white-heading">System</h1><br>
+  <h1 className="white-heading-hostel"> Hostel</h1> <h1 className="blue-heading">Management </h1> <h1 className="white-heading">System</h1><br/>
 
   <p className="white-heading-para">
 
