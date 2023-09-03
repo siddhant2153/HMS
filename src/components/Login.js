@@ -3,7 +3,7 @@ import './Login.css';
 
 export default function LOGIN() {
   return (
-    <div>
+    <div style={{ backgroundColor: '#141E46' }}>
       <nav className="navbar" style={{ backgroundColor: '#141E46' }}>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -45,7 +45,7 @@ export default function LOGIN() {
 
       <div className="image">
         <img className="size-image" src="assest/image/cartoon-1.webp" alt="" />
-      </div>
     </div>
+      </div>
   );
 }
