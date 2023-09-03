@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import  Login  from "./components/login";
+import LOGIN from "./components/login";
 
 function App() {
   return (
     
  <>
-<Login/>
+<LOGIN/>
  </>
   );
 }
