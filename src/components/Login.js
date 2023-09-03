@@ -44,7 +44,7 @@ export default function LOGIN() {
       </div>
 
       <div className="image">
-        <img className="size-image" src="cartoon4.webp" alt="Cartoon" />
+        <img className="size-image" src="assest/image/cartoon-1.webp" alt="" />
       </div>
     </div>
   );
