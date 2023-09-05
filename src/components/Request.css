@@ -1,0 +1,22 @@
+/* src/components/Request.css */
+.request-container {
+    text-align: center;
+    background-color: #ffebcc;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .request-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .request-button:hover {
+    background-color: #cc5200;
+  }
+  

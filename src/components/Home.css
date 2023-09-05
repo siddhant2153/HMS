@@ -1,0 +1,24 @@
+/* Home.css */
+.home-container {
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Vertically space the header and footer */
+    padding: 20px; /* Add some padding to the content */
+    background-color: #273b8b;
+  }
+  
+  /* Style the features section (you can adjust this as needed) */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1; /* Make the features section grow to fill available space */
+  }
+  
+  /* Style the individual feature boxes (you can adjust this as needed) */
+  .feature {
+    text-align: center;
+    padding: 20px;
+  }
+  
