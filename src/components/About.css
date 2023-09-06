@@ -1,5 +1,5 @@
-/* About Page Styles */
-div {
+
+.ab {
     text-align: center;
     margin-top: 20px;
   }
@@ -7,14 +7,14 @@ div {
   h1 {
     font-size: 36px;
     color: #007bff;
-    padding: 50px;
+    padding: 100px;
   }
   
   p {
     font-size: 18px;
     line-height: 1.6;
     color: #333;
-    margin-top: 20px;
+    margin-top: x;
     padding:  20px;
   }
   

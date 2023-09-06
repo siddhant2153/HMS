@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Navbar.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 export default function Navbar() {
   return (
     <div>
-         <nav className="navbar" style={{ backgroundColor: '#141E46' }}>
+      <nav className="navbar" style={{ backgroundColor: '#141E46' }}>
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <i className="bi bi-mortarboard" style={{ color: '#F3FDE8' }}></i>
@@ -14,7 +14,15 @@ export default function Navbar() {
 
           <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#141E46' }}>
             <div className="container-fluid">
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
                 <span className="navbar-toggler-icon"></span>
               </button>
 
@@ -25,7 +33,6 @@ export default function Navbar() {
                   <Link className="nav-link" to="/request" style={{ color: '#F3FDE8', marginRight: '10px' }}>Request</Link>
                   <Link className="nav-link" to="/adminlogin" style={{ color: '#F3FDE8', marginRight: '10px' }}>Admin Login</Link>
                   <Link className="nav-link" to="/login" style={{ color: '#F3FDE8', marginRight: '10px' }}>Login</Link>
-                  
                 </div>
               </div>
             </div>
@@ -33,5 +40,5 @@ export default function Navbar() {
         </div>
       </nav>
     </div>
-  )
+  );
 }

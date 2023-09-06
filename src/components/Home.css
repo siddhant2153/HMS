@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: space-between; /* Vertically space the header and footer */
     padding: 20px; /* Add some padding to the content */
-    background-color: #273b8b;
+    background-color: #fafafc;
   }
   
   /* Style the features section (you can adjust this as needed) */

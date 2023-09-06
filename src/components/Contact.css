@@ -1,58 +1,52 @@
-/* Contact Form Styles */
-.contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .white-para1 {
-    color:black;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .white-para2 {
-    color: black;
-  }
-  
-  .form-table {
-    width: 100%;
-  }
-  
-  .form-cell {
-    padding: 10px;
-  }
-  
-  .white-label {
-    color: black;
-    font-weight: bold;
-  }
-  
-  .white-input,
-  .white-textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  
-  .white-textarea {
-    height: 150px;
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0056b3;
-  }
-  
+/* ContactForm container */
+.ac{
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* Form styling */
+form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+p strong {
+  font-size: 1.5rem;
+}
+
+/* Label styling */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Submit button hover effect */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}

@@ -20,9 +20,13 @@ function App() {
         <Navbar />
         <Routes>
 
+          <Route exact path="/" Component={Home}>
+           
+          </Route>
           <Route exact path="/about" Component={About}>
            
           </Route>
+          
           <Route exact path="/contact" Component={Contact}>
             
           </Route>

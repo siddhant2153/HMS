@@ -1,12 +1,20 @@
-import React from 'react'
-import './Request.css'
+import React from 'react';
+import './Request.css'; // Import your CSS file
 
 export default function Request() {
   return (
-    <div className="request-container">
-    <h1>Request Account</h1>
-    <p>If you are a student and need an account, please submit your request below:</p>
-    <button className="request-button">Submit Request</button>
-  </div>
-  )
+    <div className="box-container">
+      <h2>Request Account</h2>
+      <form>
+        <label htmlFor="cms">Your CMS:</label>
+        <input type="text" id="cms" name="cms" required /><br />
+        <button type="submit">Request Account</button>
+      </form>
+      <p>Already have an account? <a href="Login.js">Sign In</a></p>
+    </div>
+  );
 }
+
+
+
+

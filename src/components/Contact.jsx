@@ -1,36 +1,67 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './Contact.css'
 
-import './Contact.css'; // Import your CSS file
+export default function ContactForm() {
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
 
-class Contact extends React.Component {
-  render() {
-    return (
-      <div style={{ backgroundColor: ' #273b8b' }}>
-        <form className="contact-form" action="index.html" method="post">
-          <p className="white-para1"><strong>Contact Us</strong></p>
-          <p className="white-para2">If you are facing any problem or have any questions, let us know</p><br />
-          <table className="form-table">
-            <tbody>
-              <tr>
-                <td className="form-cell">
-                  <label className="white-label" htmlFor="email">Your email</label>
-                  <input className="white-input" type="text" id="email" name="email" /><br />
+  const handleSubmit = (event) => {
+    event.preventDefault();
 
-                  <label className="white-label" htmlFor="subject">Subject</label>
-                  <input className="white-input" type="text" id="subject" name="subject" /><br />
+    if (email.trim() === '') {
+      alert('Please enter your email.');
+      return;
+    }
 
-                  <label className="white-label" htmlFor="message">Your Message</label>
-                  <textarea className="white-textarea" id="message" name="message"></textarea><br />
+    if (subject.trim() === '') {
+      alert('Please enter the subject.');
+      return;
+    }
 
-                  <button className="btn btn-primary" type="submit">Submit</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </form>
-      </div>
-    );
-  }
+    if (message.trim() === '') {
+      alert('Please enter your message.');
+      return;
+    }
+
+    console.log('Email:', email);
+    console.log('Subject:', subject);
+    console.log('Message:', message);
+
+    // You can add code here to submit the form data to a server or perform other actions
+  };
+
+  return (
+    <div className='ac'>
+      <form onSubmit={handleSubmit}>
+        <p><strong>Contact Us</strong></p>
+        <p>If you are facing any problem or have any questions, please let us know.</p>
+
+        <label>Your email:</label>
+        <input
+          type="text"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+        />
+
+        <label>Subject:</label>
+        <input
+          type="text"
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
+          required
+        />
+
+        <label>Your Message:</label>
+        <textarea
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          required
+        ></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  );
 }
-
-export default Contact;

@@ -3,7 +3,7 @@ import './About.css'
 
 export default function About() {
   return (
-    <div>
+    <div className='ab'>
       <h1>ABOUT US</h1>
       <p>Boost Your Business with StorWeb’s Software Solutions
 Revolutionize Your Business with StorWeb’s Innovative Software Solutions
