@@ -1,28 +1,24 @@
 import React from 'react';
 import './Home.css';
 
-export default function Home() {
+export default function LOGIN() {
   return (
-    <div className="home-container">
-      <header>
-        <h1>Welcome to Our Hostel</h1>
-        <p>Your Home Away from Home</p>
-      </header>
-      <section className="features">
-        <div className="feature">
-          <h2>Comfortable Rooms</h2>
-          <p>We offer spacious and cozy rooms for your comfort.</p>
-        </div>
-        <div className="feature">
-          <h2>Delicious Meals</h2>
-          <p>Enjoy our mouthwatering cuisine in our dining hall.</p>
-        </div>
-        <div className="feature">
-          <h2>24/7 Support</h2>
-          <p>Our staff is available around the clock to assist you.</p>
-        </div>
-      </section>
-      
+    <div style={{ backgroundColor: ' #273b8b' }}>
+      <div className="text">
+        <h1 className="white-heading-hostel"> Hostel</h1> <h1 className="blue-heading">Management </h1> <h1 className="white-heading">System</h1><br/>
+        <p className="white-heading-para">
+          Our Solution For All Of The Hostel's Needs
+        </p>
+        <button type="button" className="btn-login">Login</button>
+        <p className="or-text-white">
+          or
+        </p>
+        <a className="registration" href="#">Request Registration</a>
+      </div>
+
+      <div className="image">
+        <img className="size-image" src="assest/image/cartoon-1.webp" alt="" />
     </div>
+      </div>
   );
 }
