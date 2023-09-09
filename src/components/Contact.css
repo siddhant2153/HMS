@@ -1,52 +1,67 @@
-/* ContactForm container */
-.ac{
-  text-align: center;
-  margin: 20px auto;
-  width: 80%;
-}
-
-/* Form styling */
-form {
-  background-color: #f4f4f4;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Title styling */
-p strong {
-  font-size: 1.5rem;
-}
-
-/* Label styling */
-label {
-  display: block;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-/* Input and textarea styling */
-input[type="text"],
-textarea {
-  width: 100%;
+/* Admin Login Styles */
+.ac {
+  max-width: 450px;
+  margin: 0 auto;
   padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 13px;
+  background-color: #141E46;
+  border: 1px solid #279EFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Submit button styling */
-button[type="submit"] {
+.ac h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: -60px;
+ 
+}
+
+.ac form {
+  width: 420px;
+  position: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.ac div {
+  margin-bottom: 20px;
+}
+
+
+.ac input[type="text"],
+.ac input[type="password"] {
+  width: 98%;
+  padding: 8px;
+  border: 5px solid #ddd;
+  border-radius: 13px;
+  margin: -5px 0;
+}
+
+.ac .login-button {
   background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
+  color: white;
   border: none;
-  border-radius: 5px;
+  padding: 10px 20px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 20px;
+}
+.ac p {
+  margin-top: 20px;
+  color: #b9bdcf;
 }
 
-/* Submit button hover effect */
-button[type="submit"]:hover {
+.ac a {
+  color: #279EFF; 
+  text-decoration: underline; 
+  margin-left: 20px; 
+}
+
+.ac .login-button:hover {
   background-color: #0056b3;
+  
+}
+label{
+  text-align: left;
+
 }

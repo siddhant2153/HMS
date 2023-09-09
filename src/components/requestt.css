@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141E46;
+    color: #F3FDE8;
+    margin: 0;
+    padding: 0;
+}
+
+ /* CSS for the heading and paragraph */
+        .intro-text {
+            text-align: center; /* Center align the text */
+            margin: 30px 0; /* Add margin for spacing */
+        }
+        .white-heading-hostel,
+        .blue-heading,
+        .black-heading {
+            color: #F3FDE8;
+            display: inline;
+            width: 10px;
+             margin-right: 10px;
+        }
+        .white-heading-para {
+            color: #F3FDE8;
+            margin-top: 5px; /* Add margin for spacing */
+        }
+        
+         
+
+        .box-container {
+            width: 300px; /* Adjust the width as needed */
+            margin: 0 auto; /* Center the box horizontally */
+            padding: 20px; /* Add padding for spacing inside the box */
+            border: 2px solid #279EFF; /* Border style */
+            border-radius: 10px; /* Rounded corners */
+            background-color: #4312b7; /* Background color */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+        }
+
+h2 {
+    color: #279EFF;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #279EFF;
+    color: #F3FDE8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}

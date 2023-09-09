@@ -2,20 +2,20 @@
 .ab {
     text-align: center;
     margin-top: 20px;
-  
+    color: #007bff;
   }
   
   h1 {
     font-size: 36px;
     color: #007bff;
-    padding: 100px;
+    padding: 50px;
   }
   
-  .ad{
+  p {
     font-size: 18px;
     line-height: 1.6;
-    color: white;
-    margin-top: x;
+    color: #e6f1f2;
+    margin-top: 20px;
     padding:  20px;
   }
   

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css'
 
-export default function ContactForm() {
+export default function Contact() {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
@@ -34,11 +34,12 @@ export default function ContactForm() {
   return (
     <div className='ac'>
       <form onSubmit={handleSubmit}>
-        <p><strong>Contact Us</strong></p>
+        <h2><strong>Contact Us</strong></h2> <br />
         <p>If you are facing any problem or have any questions, please let us know.</p>
 
         <label>Your email:</label>
         <input
+          placeholder='name@gmail.com'
           type="text"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -47,6 +48,7 @@ export default function ContactForm() {
 
         <label>Subject:</label>
         <input
+          placeholder='Let us know How We can Help You'
           type="text"
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
@@ -55,11 +57,13 @@ export default function ContactForm() {
 
         <label>Your Message:</label>
         <textarea
+         placeholder='Leave a comment...'
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           required
-        ></textarea>
-
+        ></textarea><br />
+       
+       
         <button type="submit">Submit</button>
       </form>
     </div>
