@@ -7,7 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import AdminLogin from './components/AdminLogin'
 import Request from "./components/Request";
-import Login from "./components/login";
+import signin from "./components/signin";
 import Home from "./components/Home";
 
 import { BrowserRouter, Route, Routes, } from "react-router-dom";
@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/contact" Component={Contact}>
             
           </Route>
-          <Route exact path="/login" Component={Login}>
+          <Route exact path="/signin" Component={signin}>
             
           </Route>
           <Route exact path="/request" Component={Request}>
