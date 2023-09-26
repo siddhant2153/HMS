@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  
+  .canva{
+    background-color: #5CD2E6;
+    width:1480px;
+  }
+  
+  .offcanvas-body{
+    background-color: #5CD2E6;
+  }
+  
+  .Home-icon{
+    width:20px;
+    height: 20px;
+    position: relative;
+    right:5px;
+    bottom:3px;
+  }
+  
+  .mess{
+    width:20px;
+    height: 20px;
+    position: relative;
+    right:5px;
+    bottom:3px;
+  }
+  
+  .attendence{
+    width:20px;
+    height: 20px;
+    position: relative;
+    right:5px;
+    bottom:3px;
+  }
+  
+  .invoices{
+    width:20px;
+    height: 20px;
+    position: relative;
+    right:5px;
+    bottom:3px;
+  }
+  
+  .complaints{
+    width:20px;
+    height: 20px;
+    position: relative;
+    right:5px;
+    bottom:3px;
+  }
+  
+  .suggestion{
+      width:20px;
+      height: 20px;
+      position: relative;
+      right:5px;
+      bottom:3px;
+  }
+  
+  .log-out{
+    width:20px;
+    height: 20px;
+    position: relative;
+    right:5px;
+    bottom:3px;
+  }
